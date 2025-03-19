@@ -1,5 +1,5 @@
 # Use the official Nginx image from the Docker Hub
-FROM nginx
+FROM nginx:latest
 
 # Copy the HTML file to the Nginx html directory
 COPY . /usr/share/nginx/html/
